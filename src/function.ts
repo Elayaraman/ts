@@ -12,7 +12,7 @@ const ff = function (){
 
 // :void means it doesn't return anything or return undefined
 
-function log(val:string):never{
+function log(val:string):void{
 
     setInterval(()=>{
         console.log(val);
